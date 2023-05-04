@@ -74,14 +74,10 @@ class Programmer extends People {
 
 // 8. Test it out - can you create different programmers and run all the methods on them? Does each programmer maintain their own properties properly and independently of the other programmers?
 
-let john = new Programmer("John", "Front-End Developer", 30, [
-  "JavaScript",
-  "HTML",
-  "CSS",
-]);
+let john = new Programmer("John", "Front-End Developer", 30, ["HTML", "CSS"]);
 john.fetchJob();
 john.exercise();
 john.acceptNewTask();
 john.offerNewTask();
-john.learnLanguage("React");
+john.learnLanguage("JavaScript");
 john.listLanguages();
